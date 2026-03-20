@@ -7,10 +7,6 @@
     "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint",
-    "parse-reading": "node scripts/parse-engnovate-reading.mjs",
-    "parse-speaking": "node scripts/parse-engnovate-speaking.mjs",
-    "parse-writing": "node scripts/parse-engnovate-writing.mjs",
-    "upload-audios-r2": "node scripts/upload-audios-to-r2.mjs",
     "build:drive-css": "npx --yes tailwindcss@3.4.17 -c tailwind.drive.config.cjs -i ./features/google-drive/tw-input.css -o ./public/gdrive/drive.css --minify",
     "hash-password": "node scripts/hash-password.mjs"
   },
