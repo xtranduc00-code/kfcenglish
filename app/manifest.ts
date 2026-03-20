@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 export default function manifest(): MetadataRoute.Manifest {
     return {
         id: "/",
-        name: "KFC Workspace",
-        short_name: "KFC",
+        name: "Ken Workspace",
+        short_name: "Ken",
         description: "All-in-one productivity app with flashcards, AI tools, and learning features.",
         start_url: "/",
         scope: "/",

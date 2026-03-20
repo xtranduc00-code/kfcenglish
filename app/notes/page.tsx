@@ -100,7 +100,7 @@ function formatDate(iso: string) {
   return d.toLocaleDateString([], { month: "short", day: "numeric" });
 }
 
-const NOTES_SIDEBAR_LS = "kfc-notes-sidebar";
+const NOTES_SIDEBAR_LS = "ken-notes-sidebar";
 
 function snippet(text: string, maxLen: number, emptyLabel: string) {
   const withoutTags = text.replace(/<[^>]+>/g, " ");

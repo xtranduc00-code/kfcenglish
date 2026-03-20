@@ -9,7 +9,7 @@ export function SeoJsonLd() {
         {
             "@type": "WebSite",
             "@id": `${url}/#website`,
-            name: "KFC Workspace",
+            name: "Ken Workspace",
             url,
             description: DESCRIPTION,
             inLanguage: "en",
@@ -18,7 +18,7 @@ export function SeoJsonLd() {
         {
             "@type": "Organization",
             "@id": `${url}/#organization`,
-            name: "KFC Workspace",
+            name: "Ken Workspace",
             url,
             logo: {
                 "@type": "ImageObject",

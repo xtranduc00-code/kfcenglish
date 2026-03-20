@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
 import { randomHex } from "@/lib/auth-crypto";
 import { getGoogleAppOAuthCredentials, resolveGoogleOAuthOrigin } from "@/lib/google-app-oauth";
-const STATE_COOKIE = "kfc_google_oauth_state";
+const STATE_COOKIE = "ken_google_oauth_state";
 const STATE_MAX_AGE = 600;
 export async function GET(req: Request) {
     const origin = resolveGoogleOAuthOrigin(req);

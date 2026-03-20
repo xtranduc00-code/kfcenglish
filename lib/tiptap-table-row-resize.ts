@@ -37,7 +37,7 @@ export const ResizableTableRow = TableRow.extend({
     },
 });
 
-const rowResizeKey = new PluginKey("kfcTableRowResize");
+const rowResizeKey = new PluginKey("kenTableRowResize");
 const MIN_ROW_PX = 40;
 const EDGE_PX = 10;
 

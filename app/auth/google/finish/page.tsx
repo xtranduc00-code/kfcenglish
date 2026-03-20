@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { GoogleOAuthFinishClient } from "./google-oauth-finish-client";
 export const metadata: Metadata = {
-    title: "Signing in — KFC Workspace",
+    title: "Signing in — Ken Workspace",
     robots: { index: false, follow: false },
 };
 export default function GoogleOAuthFinishPage() {

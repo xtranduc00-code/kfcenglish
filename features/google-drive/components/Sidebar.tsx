@@ -132,7 +132,7 @@ const Sidebar = ({ fullName, avatar, email }: Props) => {
 
       <div className="mt-4 px-2">
         <Link href="/dictionary" className="body-2 flex items-center justify-center gap-1 rounded-full py-2 text-light-200 transition-colors hover:text-brand lg:justify-start lg:px-4">
-          ← KFC
+          ← Ken
         </Link>
       </div>
 

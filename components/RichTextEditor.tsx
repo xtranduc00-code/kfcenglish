@@ -80,7 +80,7 @@ const nunito = Nunito({
   display: "swap",
   weight: ["400", "500", "600", "700"],
 });
-const LINE_HEIGHT_LS = "kfc-notes-editor-line-height";
+const LINE_HEIGHT_LS = "ken-notes-editor-line-height";
 const LINE_HEIGHT_OPTIONS = [
   { value: "1.35", label: "1.35" },
   { value: "1.5", label: "1.5" },

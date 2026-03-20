@@ -8,8 +8,8 @@ export type AuthUser = {
     hasPassword?: boolean;
     avatarUrl?: string | null;
 };
-export const AUTH_TOKEN_KEY = "kfc-auth-token";
-export const AUTH_USER_KEY = "kfc-auth-user";
+export const AUTH_TOKEN_KEY = "ken-auth-token";
+export const AUTH_USER_KEY = "ken-auth-user";
 function getStored(): {
     token: string | null;
     user: AuthUser | null;

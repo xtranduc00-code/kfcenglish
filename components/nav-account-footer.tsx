@@ -11,6 +11,12 @@ type NavAccountFooterProps = {
     /** 'drawer' = mobile drawer (plain buttons); 'sidebar' = desktop row + dropdown */
     variant: "drawer" | "sidebar";
 };
+function BrandDisclaimer() {
+    return (<div className="mt-3 rounded-lg border border-zinc-200 bg-zinc-50 px-3 py-2 text-[11px] leading-relaxed text-zinc-500 dark:border-zinc-700 dark:bg-zinc-900/40 dark:text-zinc-400">
+      <p>This website is not affiliated with any real brand.</p>
+      <p>This is a demo project.</p>
+    </div>);
+}
 function AccountTrigger({ avatarMark, name, menuOpen, onToggle, ariaLabel, }: {
     avatarMark: React.ReactNode;
     name: string;
@@ -92,6 +98,7 @@ export function NavAccountFooter({ onOpenProfile, onOpenSecurity, variant }: Nav
               <LogIn className="h-4 w-4"/>
               {t("logIn")}
             </button>)}
+          <BrandDisclaimer />
         </div>);
     }
     return (<div className="mt-4 shrink-0 border-t border-zinc-200 pt-3 dark:border-zinc-700">
@@ -107,5 +114,6 @@ export function NavAccountFooter({ onOpenProfile, onOpenSecurity, variant }: Nav
           <LogIn className="h-4 w-4"/>
           {t("logIn")}
         </button>)}
+      <BrandDisclaimer />
     </div>);
 }

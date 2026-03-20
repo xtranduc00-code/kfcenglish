@@ -76,7 +76,7 @@ export function DriveLayoutClient({ children, }: {
                 {t("driveConnectDialogButton")}
               </Button>
               <button type="button" className="text-center text-sm text-zinc-500 underline-offset-2 hover:text-zinc-800 hover:underline dark:hover:text-zinc-300" onClick={() => router.push("/dictionary")}>
-                Back to KFC
+                Back to Ken
               </button>
             </div>
           </DialogContent>

@@ -17,7 +17,7 @@ const inter = Inter({
     weight: ["400", "500", "600", "700"],
 });
 
-const SITE_NAME = "KFC Workspace";
+const SITE_NAME = "Ken Workspace";
 const SITE_DESCRIPTION =
     "All-in-one productivity app with flashcards, AI tools, and learning features.";
 const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim();
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description: SITE_DESCRIPTION,
     applicationName: SITE_NAME,
     keywords: [
-        "KFC Workspace",
+        "Ken Workspace",
         "productivity",
         "flashcards",
         "dictionary",

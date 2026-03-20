@@ -1,4 +1,4 @@
-# KFC Workspace
+# Ken Workspace
 
 All-in-One productivity app — full-stack personal productivity and **IELTS preparation**: English dictionary, Listening / Reading / Writing / Speaking practice, flashcards, notes, calendar, translation, **Google Drive** integration, and an **AI realtime speaking partner** (voice).
 

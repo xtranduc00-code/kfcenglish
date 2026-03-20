@@ -4,7 +4,7 @@ import { randomHex } from "@/lib/auth-crypto";
 import { getGoogleAppOAuthCredentials, resolveGoogleOAuthOrigin } from "@/lib/google-app-oauth";
 import { ensureGoogleAppUser } from "@/lib/ensure-google-app-user";
 import { supabaseForUserData } from "@/lib/supabase-server";
-const STATE_COOKIE = "kfc_google_oauth_state";
+const STATE_COOKIE = "ken_google_oauth_state";
 const TOKEN_BYTES = 32;
 type GoogleUserInfo = {
     email?: string;

@@ -1,7 +1,7 @@
 /** Room slug rules — keep in sync with API + hub validation */
 export const MEETS_ROOM_NAME_RE = /^[a-zA-Z0-9_-]{1,128}$/;
 
-const STORAGE_KEY = "kfc-meets-recent-rooms";
+const STORAGE_KEY = "ken-meets-recent-rooms";
 const MAX_RECENT = 12;
 /** Friendly label (your device only) — any reasonable text length */
 export const MEETS_ROOM_LABEL_MAX = 80;

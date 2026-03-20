@@ -296,7 +296,7 @@ export const translations = {
     driveStatusConnected: "Connected",
     driveStatusNotConnected: "Not connected",
     driveConnectHint:
-      "Link Google to browse Drive here. Separate from your KFC account login.",
+      "Link Google to browse Drive here. Separate from your Ken account login.",
     driveConnectCta: "Connect Google Drive",
     driveActionRefreshFiles: "Refresh files",
     driveActionReconnectAccount: "Reconnect account",
@@ -306,9 +306,9 @@ export const translations = {
     driveMenuGroupSecondary: "Google account",
     driveConnectDialogTitle: "Connect Google Drive",
     driveConnectDialogBody:
-      "Allow Google access so KFC can list and open your Drive files. This does not replace your KFC login — use Log out in the sidebar to leave the app.",
+      "Allow Google access so Ken can list and open your Drive files. This does not replace your Ken login — use Log out in the sidebar to leave the app.",
     driveConnectDialogButton: "Connect Google Drive",
-    logOutApp: "Log out of KFC",
+    logOutApp: "Log out of Ken",
     profileTitle: "Profile",
     profileUsernameLabel: "Username",
     profileEmailLabel: "Email",
@@ -344,7 +344,7 @@ export const translations = {
       "Only your password is changed here. Use Profile in the account menu for your photo and account details.",
     driveMobileDisconnect: "Disconnect Drive",
     driveMobileDisconnectHint:
-      "Unlinks Google only. To sign out of KFC, use Log out of KFC in the left sidebar.",
+      "Unlinks Google only. To sign out of Ken, use Log out of Ken in the left sidebar.",
     driveSidebarLoginHint: "Log in to connect Google Drive.",
     driveConnectedToGoogle: "Connected to Google Drive",
     ariaToggleNav: "Toggle navigation menu",
@@ -359,7 +359,7 @@ export const translations = {
     ariaNextPart: "Next part",
     ariaClose: "Close",
     ariaToggleFullscreen: "Toggle fullscreen",
-    appTitle: "KFC Workspace",
+    appTitle: "Ken Workspace",
     searchPlaceholder: "Type an English word...",
     searchButton: "Search",
     searchFailed: "Search failed.",
@@ -1112,7 +1112,7 @@ export const translations = {
     driveStatusConnected: "Đã kết nối",
     driveStatusNotConnected: "Chưa kết nối",
     driveConnectHint:
-      "Kết nối Google để xem Drive tại đây. Khác với đăng nhập tài khoản KFC.",
+      "Kết nối Google để xem Drive tại đây. Khác với đăng nhập tài khoản Ken.",
     driveConnectCta: "Kết nối Google Drive",
     driveActionRefreshFiles: "Làm mới file",
     driveActionReconnectAccount: "Kết nối lại tài khoản",
@@ -1122,9 +1122,9 @@ export const translations = {
     driveMenuGroupSecondary: "Tài khoản Google",
     driveConnectDialogTitle: "Kết nối Google Drive",
     driveConnectDialogBody:
-      "Cho phép Google để KFC xem và mở file Drive. Không thay cho đăng nhập KFC — đăng xuất app ở thanh bên.",
+      "Cho phép Google để Ken xem và mở file Drive. Không thay cho đăng nhập Ken — đăng xuất app ở thanh bên.",
     driveConnectDialogButton: "Kết nối Google Drive",
-    logOutApp: "Đăng xuất khỏi KFC",
+    logOutApp: "Đăng xuất khỏi Ken",
     profileTitle: "Hồ sơ",
     profileUsernameLabel: "Tên đăng nhập",
     profileEmailLabel: "Email",
@@ -1160,7 +1160,7 @@ export const translations = {
       "Chỉ đổi mật khẩu tại đây. Ảnh và thông tin tài khoản: mục Hồ sơ trong menu tài khoản.",
     driveMobileDisconnect: "Ngắt kết nối Drive",
     driveMobileDisconnectHint:
-      "Chỉ gỡ liên kết Google. Đăng xuất KFC: dùng nút Đăng xuất khỏi KFC ở sidebar.",
+      "Chỉ gỡ liên kết Google. Đăng xuất Ken: dùng nút Đăng xuất khỏi Ken ở sidebar.",
     driveSidebarLoginHint: "Đăng nhập để kết nối Google Drive.",
     driveConnectedToGoogle: "Đã kết nối Google Drive",
     ariaToggleNav: "Mở/đóng menu điều hướng",
@@ -1175,7 +1175,7 @@ export const translations = {
     ariaNextPart: "Phần sau",
     ariaClose: "Đóng",
     ariaToggleFullscreen: "Bật/tắt toàn màn hình",
-    appTitle: "KFC Workspace",
+    appTitle: "Ken Workspace",
     searchPlaceholder: "Gõ từ tiếng Anh...",
     searchButton: "Tìm",
     searchFailed: "Tìm kiếm thất bại.",
@@ -1632,7 +1632,7 @@ export function getT(locale: Locale) {
   const dict = translations[locale];
   return (key: TranslationKey) => dict[key] ?? key;
 }
-const STORAGE_KEY = "kfc-locale";
+const STORAGE_KEY = "ken-locale";
 export function getStoredLocale(): Locale {
   if (typeof window === "undefined") return "en";
   const s = window.localStorage.getItem(STORAGE_KEY);

@@ -38,7 +38,7 @@ const MobileNavigation = ({ $id: ownerId, accountId, fullName, avatar, email, }:
           </SheetTitle>
 
           <p className="mb-3 px-2 text-center text-sm text-light-200">
-            Use the KFC sidebar:{" "}
+            Use the Ken sidebar:{" "}
             <strong className="text-white">Others → Google Drive</strong> to switch pages.
           </p>
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Dev-only: print bcrypt hash for use in SQL:
- *   UPDATE auth_users SET password_hash = '<paste>' WHERE username = 'kenkfc';
+ *   UPDATE auth_users SET password_hash = '<paste>' WHERE username = 'ken';
  * Matches lib/password.ts (bcryptjs, 10 rounds).
  */
 import bcrypt from "bcryptjs";

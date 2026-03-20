@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { DriveStylesLoader } from "@gd/components/DriveStylesLoader";
 import { DriveSessionProvider } from "@gd/components/providers/DriveSessionProvider";
 export const metadata: Metadata = {
-    title: "Google Drive | KFC",
-    description: "Kết nối Google Drive trong KFC — tách với đăng nhập tài khoản app.",
+    title: "Google Drive | Ken",
+    description: "Kết nối Google Drive trong Ken — tách với đăng nhập tài khoản app.",
 };
 export default function DriveRootLayout({ children, }: Readonly<{
     children: React.ReactNode;
